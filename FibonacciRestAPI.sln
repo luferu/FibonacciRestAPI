@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciRest.API", "FibonacciRest.API.csproj", "{9088F3DE-DDDF-4E8D-9F82-946F08CE6B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciRest.Service", "..\FibonacciRest.Service\FibonacciRest.Service.csproj", "{26A54410-0A6E-4ADD-8FA3-90C457968185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciRest.Test", "..\FibonacciRest.Test\FibonacciRest.Test.csproj", "{04A95760-00D1-4E6D-8F5F-9C7D83EC331F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CC227FEF-B6CF-4B59-8128-A2090DB958DA}"
+	ProjectSection(SolutionItems) = preProject
+		CaptureArquitectura.PNG = CaptureArquitectura.PNG
+		CaptureFibonacci.PNG = CaptureFibonacci.PNG
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9088F3DE-DDDF-4E8D-9F82-946F08CE6B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9088F3DE-DDDF-4E8D-9F82-946F08CE6B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9088F3DE-DDDF-4E8D-9F82-946F08CE6B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9088F3DE-DDDF-4E8D-9F82-946F08CE6B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A54410-0A6E-4ADD-8FA3-90C457968185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A54410-0A6E-4ADD-8FA3-90C457968185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A54410-0A6E-4ADD-8FA3-90C457968185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A54410-0A6E-4ADD-8FA3-90C457968185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A95760-00D1-4E6D-8F5F-9C7D83EC331F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A95760-00D1-4E6D-8F5F-9C7D83EC331F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A95760-00D1-4E6D-8F5F-9C7D83EC331F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A95760-00D1-4E6D-8F5F-9C7D83EC331F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C60334A7-B5CE-4F90-9016-A9BEEFA83DA8}
+	EndGlobalSection
+EndGlobal
